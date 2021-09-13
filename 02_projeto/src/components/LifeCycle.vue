@@ -15,11 +15,17 @@ export default {
         setTimeout(() => {
             this.nome = "Ana Flávia.";
         }, 1000);
+        this.lifeCycle();
     },
     mounted() {
         setTimeout(() => {
             this.nome = "Flávia.";
         }, 2000);
+    },
+    methods: {
+        lifeCycle() {
+            console.log("Executou");
+        },
     },
 };
 </script>
