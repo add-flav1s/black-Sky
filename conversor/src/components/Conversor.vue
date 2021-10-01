@@ -24,17 +24,14 @@ export default {
         converter() {
             let de_para = this.moedaA + "_" + this.moedaB;
 
-            let url =
-                "https://free.currconv.com/api/v7/convert?apiKey=do-not-use-this-api-key-7KoyFGS8U36lndug8pIEg&q=" +
-                de_para +
-                "&compact=y";
+            let url = `https://free.currconv.com/api/v7/convert?q=${de_para}&compact=ultra&apiKey=11acdd23591445096e88`;
 
             fetch(url)
                 .then((res) => {
                     return res.json();
                 })
                 .then((json) => {
-                    let cotacao = json[de_para].val;
+                    let cotacao = json[de_para];
                     this.moedaB_value = (
                         cotacao * parseFloat(this.moedaA_value)
                     ).toFixed(2);
@@ -45,4 +42,9 @@ export default {
 </script>
 
 <style scoped>
+.conversor {
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px 0 #212121;
+}
 </style>
