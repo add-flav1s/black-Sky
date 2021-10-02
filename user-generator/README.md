@@ -6,7 +6,7 @@
 
 
 ### Clone o repositório
-$ git clone https://github.com/add-flav1s/user-generator.git
+$ git clone https://github.com/add-flav1s/black-Sky.git
 
 
 ### Entre no repositório
