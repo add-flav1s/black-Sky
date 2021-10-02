@@ -1,24 +1,26 @@
-# user-generator
+# RandomUser
 
-## Project setup
-```
-npm install
-```
+## Stack usada
+- VueJs.
+- API https://randomuser.me/api
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Clone o repositório
+$ git clone https://github.com/add-flav1s/black-Sky.git
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
+### Entre no repositório
+$ cd user-generator
+
+
+### Instale as dependências
+$ npm install
+
+
+### Execute a aplicação
+$ npm run serve
+
+
+#### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
