@@ -22,7 +22,7 @@ export default {
 
 html,
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lexend Deca", sans-serif;
 }
 
 #app {
